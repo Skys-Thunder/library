@@ -14,6 +14,6 @@ class UnionFind {
     }
     root(x){
         if(this.parent[x]==-1) return x;
-        return this.root(this.parent[x]);
+        return this.parent[x]=this.root(this.parent[x]);
     }
 }
