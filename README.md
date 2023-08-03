@@ -6,4 +6,5 @@ AtCoder用のライブラリです。絶対に使わないだろって物もア�
 [ceil.js](https://github.com/Thunder-Sky/library/blob/main/ceil.js) 多倍長整数を切り上げするときに使うやつ。  
 [next_permutation.js](https://github.com/Thunder-Sky/library/blob/main/next_permutation.js) 順列全探索する関数。探索したい配列を引数に与える。  
 [equal.js](https://github.com/Thunder-Sky/library/blob/main/equal.js) 配列同士を比較します。  
-[GCD.js](https://github.com/Thunder-Sky/library/blob/main/GCD.js) 2つの数の最大公約数を返します
+[GCD.js](https://github.com/Thunder-Sky/library/blob/main/GCD.js) 2つの数の最大公約数を返します  
+[Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です
