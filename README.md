@@ -7,4 +7,5 @@ AtCoder用のライブラリです。絶対に使わないだろって物もア�
 [next_permutation.js](https://github.com/Thunder-Sky/library/blob/main/next_permutation.js) 順列全探索する関数。探索したい配列を引数に与える。  
 [equal.js](https://github.com/Thunder-Sky/library/blob/main/equal.js) 配列同士を比較します。  
 [GCD.js](https://github.com/Thunder-Sky/library/blob/main/GCD.js) 2つの数の最大公約数を返します  
-[Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です
+[Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です  
+[Queue.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Queue」を扱うための関数です
