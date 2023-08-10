@@ -9,4 +9,5 @@ AtCoder用のライブラリです。絶対に使わないだろって物もア�
 [GCD.js](https://github.com/Thunder-Sky/library/blob/main/GCD.js) 2つの数の最大公約数を返します  
 [Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です  
 [Queue.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Queue」を扱うための関数です  
-[nCr.js](https://github.com/Thunder-Sky/library/blob/main/nCr.js) 組み合わせの数を出す時に使う。(n個からc個を取る組み合わせの数)
+[nCr.js](https://github.com/Thunder-Sky/library/blob/main/nCr.js) 組み合わせの数を出す時に使う。(n個からc個を取る組み合わせの数)  
+[binary_search.js](https://github.com/Thunder-Sky/library/blob/main/binary_search.js) 配列のどこに値があるか探す(二分探索)
