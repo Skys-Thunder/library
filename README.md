@@ -9,4 +9,5 @@ AtCoder用のライブラリです。絶対に使わないだろって物もア�
 [Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です  
 [Queue.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Queue」を扱うための関数です  
 [nCr.js](https://github.com/Thunder-Sky/library/blob/main/nCr.js) 組み合わせの数を出す時に使う。(n個からc個を取る組み合わせの数)  
-[binary_search.js](https://github.com/Thunder-Sky/library/blob/main/binary_search.js) 配列のどこに値があるか探す(二分探索)
+[binary_search.js](https://github.com/Thunder-Sky/library/blob/main/binary_search.js) 配列のどこに値があるか探す(二分探索)  
+[sort.js](https://github.com/Thunder-Sky/library/blob/main/sort.js) 配列を独自の基準でソートします。
