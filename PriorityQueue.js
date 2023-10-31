@@ -4,7 +4,7 @@ var PriorityQueue = (() => {
         this.compare = _f;
     }
 
-    PriorityQueue.prototype.swap = function(i, j) {tmp = this.data[i]; this.data[i] = this.data[j]; this.data[j] = tmp}
+    PriorityQueue.prototype.swap = function(i, j) {let tmp = this.data[i]; this.data[i] = this.data[j]; this.data[j] = tmp}
 
     PriorityQueue.prototype.size = function(){ return this.data.length - 1 }
     PriorityQueue.prototype.top = function(){ return this.data[1] }
@@ -19,9 +19,9 @@ var PriorityQueue = (() => {
     }
     PriorityQueue.prototype.pop = function(){
         console.assert(this.data.length > 1, "pop() : queue is empty")
-        this.swap(1, this.data.length - 1); index = 1
+        this.swap(1, this.data.length - 1); let index = 1
         while (index * 2 < this.data.length - 1) {
-            nindex = index * 2
+            let nindex = index * 2
             if (nindex+1 < this.data.length - 1 && this.compare(this.data[nindex], this.data[nindex+1])) nindex++
             if (this.compare(this.data[nindex], this.data[index])) break;
             this.swap(index, nindex)
@@ -42,4 +42,4 @@ var PriorityQueueInv = PriorityQueue.bind(undefined, (a, b) => a > b)
 // x.top()   : topにある値を返す
 // x.push(a) : aをプライオリティキューに挿入する 
 // x.pop()   : topにある値を返し、その値を削除する 
-// 動作テスト:https://atcoder.jp/contests/abc325/submissions/47092140
+// 動作テスト: https://atcoder.jp/contests/abc325/submissions/47119750

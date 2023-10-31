@@ -12,10 +12,10 @@ var ModInt = (() => {
     ModInt.prototype.mul = function(_rhs){ return new ModInt(this.v * new ModInt(_rhs, this.mod).v, this.mod) }
     ModInt.prototype.div = function(_rhs){ return new ModInt(this.v * new ModInt(_rhs, this.mod).inv().v, this.mod) }
     ModInt.prototype.inv = function() {
-        s = this.mod; t = this.v; m0 = 0n; m1 = 1n
+        let s = this.mod; let t = this.v; let m0 = 0n; let m1 = 1n
         while (t != 0) {
-            u = BigInt(s / t); s -= t * u; m0 -= m1 * u
-            tmp = s; s = t; t = tmp
+            let u = s / t; s -= t * u; m0 -= m1 * u
+            let tmp = s; s = t; t = tmp
             tmp = m0; m0 = m1; m1 = tmp
         }
         if (m0 < 0) m0 += this.mod / s
@@ -23,8 +23,8 @@ var ModInt = (() => {
     }
     ModInt.prototype.pow = function (n) {
         console.assert(n >= 0, "pow(n) : n must be greater or equal to 0")
-        r = new ModInt(1, this.mod)
-        x = new ModInt(this.v, this.mod)
+        let r = new ModInt(1, this.mod)
+        let x = new ModInt(this.v, this.mod)
         while(n > 0) { if ((n & 1) > 0) r = r.mul(x); x = x.mul(x); n >>= 1}
         return new ModInt(r, this.mod)
     }
@@ -41,4 +41,4 @@ var ModInt = (() => {
 // x.inv()  : 1/x (mod x.mod)の値を返す
 // x.pow(n) : x^n (mod x.mod)の値を繰り返し二乗法で計算して返す
 // x.val()  : xの保持する値をNumber型で返す
-// 動作テスト:https://atcoder.jp/contests/abc326/submissions/47089987
+// 動作テスト:https://atcoder.jp/contests/abc326/submissions/47119777
