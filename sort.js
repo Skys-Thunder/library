@@ -6,4 +6,5 @@ function sort(f,s){
     }
     return f.length-s.length;
 }
-// x="abcdefghijklmn",.sort(sort)
+x="abcdefghijklmnopqrstuvwxyz";
+// "anidc".split("").sort(sort);
