@@ -2,10 +2,12 @@
 AtCoder用のライブラリです。絶対に使わないだろって物もアップロードします。  
 
 ### データ構造
-[UnionFind.js](https://github.com/Thunder-Sky/library/blob/main/UnionFind.js) データ構造「UnionFind」を扱うための関数です (参考:[こちら](https://somachob.com/union-find/))  
-[Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) データ構造「Stack」を扱うための関数です  
-[Queue.js](https://github.com/Thunder-Sky/library/blob/main/Queue.js) データ構造「Queue」を扱うための関数です  
-[PriorityQueue.js](https://github.com/Skys-Thunder/library/blob/main/PriorityQueue.js) データ構造「優先度付きキュー」を扱うための関数です (made by [@sgfc](https://github.com/sgfc)!)  
+[UnionFind.js](https://github.com/Thunder-Sky/library/blob/main/UnionFind.js) 「UnionFind」を扱うための関数です (参考:[こちら](https://somachob.com/union-find/))  
+[Stack.js](https://github.com/Thunder-Sky/library/blob/main/Stack.js) 「Stack」を扱うための関数です  
+[Queue.js](https://github.com/Thunder-Sky/library/blob/main/Queue.js) 「Queue」を扱うための関数です  
+[PriorityQueue.js](https://github.com/Skys-Thunder/library/blob/main/PriorityQueue.js) 「優先度付きキュー」を扱うための関数です (made by [@sgfc](https://github.com/sgfc)!)  
+[Segtree.js](https://github.com/Skys-Thunder/library/blob/main/Segtree.js) 「セグ木」を扱うための関数です (made by [@sgfc](https://github.com/sgfc)!)  
+[string.js](https://github.com/Skys-Thunder/library/blob/main/string.js) 「suffix_array」と「lcp_array」を扱うための関数です  (made by [@sgfc](https://github.com/sgfc)!)  
 
 ### 数学
 [isprime.js](https://github.com/Thunder-Sky/library/blob/main/isprime.js) 素数かどうか判定する  
